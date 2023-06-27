@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford University</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+     
+<head>
+<body>
+    <!-- Header part -->
+    <section class="sub-header">
+        <div class="navbar">
+            <div class="logo">
+                <a href="./index.html"><img src="./logo.png" alt="logo"></a>
+            </div>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contuct.html">CONTUCT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" id="show" onclick="showMenu()"></i>
+        </div>
+        <h1 class="ahead">About Us</h1>
+    </section>
+
+
+    <!-- About page content -->
+    <section class="about-us">
+        <div class="about-row">
+            <div class="about-col">
+                <h1>We are the world's largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, saepe modi. Saepe expedita, sunt iste ut libero magni architecto quisquam veniam consequuntur atque, voluptas, veritatis odit error? Eligendi fugit nemo sed corporis quisquam? Magnam! Lorem ipsum dolor sit amet consectetur, adipisicing elit ipsum dolor sit amet consectetur. </p>
+                <a href="#" class="about-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="./about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- -------About Us------- -->
+    <section class="about">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Intotam optio veniam dolore praesent dolor reiciendis <br> Lorem ipsum dolor sit amet consectetur ametinoust.</p>
+        <i class="fa-brands fa-facebook-f icons"></i>
+        <i class="fa-brands fa-twitter icons"></i>
+        <i class="fa-brands fa-instagram icons"></i>
+        <i class="fa-brands fa-linkedin-in icons"></i>
+        <i class="fa-brands fa-google icons"></i>
+        <div>
+            <p>Made with <i class="fa-regular fa-heart heart "></i> by Easy Tutorials &copy; Copyright</p>
+            
+        </div>
+    </section>
+
+    <!-- The javascript menubar -->
+    <script>
+        let showlinks = document.getElementById("navlinks");
+        function showMenu(){
+            showlinks.style.right = "0px";
+        }
+        function hideMenu(){
+            showlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

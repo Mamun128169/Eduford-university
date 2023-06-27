@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford University</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+     
+<head>
+<body>
+    <!-- Header part -->
+    <section class="sub-header">
+        <div class="navbar">
+            <div class="logo">
+                <a href="./index.html"><img src="./logo.png" alt="logo"></a>
+            </div>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contuct.html">CONTUCT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" id="show" onclick="showMenu()"></i>
+        </div>
+        <h1 class="ahead">CONTUCT US</h1>
+    </section>
+
+
+
+    <!-- Contuct Page content -->
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/d/embed?mid=11K4zzQ9Kcz4yTmHNBvAeaGHUUxU&hl=en_US&ehbc=2E312F" width="640" height="480"></iframe>
+
+    </section>
+
+    <section class="contuct-us">
+        <div class="contuct-row">
+            <div class="contuct-col">
+                <div>
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span>
+                        <h5>Mazar-road, khan Tower</h5>
+                        <p>Uttara, Dhaka, BANGLADESH</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+088 01640571091</h5>
+                        <p>Sunday to Friday, 10 AM to 5 PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>mh4559641@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contuct-col">  
+                <form action="" class="contuct-form">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter email address" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea  rows="8" placeholder="Message"></textarea>
+                    <button class="about-btn">Send Message</button>
+                </form> 
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- -------About Us------- -->
+    <section class="about">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Intotam optio veniam dolore praesent dolor reiciendis <br> Lorem ipsum dolor sit amet consectetur ametinoust.</p>
+        <i class="fa-brands fa-facebook-f icons"></i>
+        <i class="fa-brands fa-twitter icons"></i>
+        <i class="fa-brands fa-instagram icons"></i>
+        <i class="fa-brands fa-linkedin-in icons"></i>
+        <i class="fa-brands fa-google icons"></i>
+        <div>
+            <p>Made with <i class="fa-regular fa-heart heart "></i> by Easy Tutorials &copy; Copyright</p>
+            
+        </div>
+    </section>
+
+    <!-- The javascript menubar -->
+    <script>
+        let showlinks = document.getElementById("navlinks");
+        function showMenu(){
+            showlinks.style.right = "0px";
+        }
+        function hideMenu(){
+            showlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
